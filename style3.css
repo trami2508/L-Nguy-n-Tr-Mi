@@ -1,0 +1,19 @@
+.img{
+    text-align: center;
+}
+h1{
+    text-align:center;
+    color: rgb(19, 72, 219);
+    font-variant: small-caps;
+}
+h2{
+    color: red;
+    font-variant: small-caps;
+}
+p{
+    text-align: center;
+    font-variant: normal;
+}
+h3{
+    color: rgb(81, 233, 35);
+}

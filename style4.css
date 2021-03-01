@@ -1,0 +1,13 @@
+h1{
+    text-align:center;
+    color: rgb(19, 72, 219);
+    font-variant: small-caps;
+}
+h2{
+    color: red;
+    font-variant: small-caps;
+}
+.flex-container{
+    display: flex;
+    align-content: stretch;
+}

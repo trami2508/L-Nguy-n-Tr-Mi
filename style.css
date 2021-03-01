@@ -1,0 +1,196 @@
+.menu>ul>li{
+    display: inline-block;
+    position: relative;
+}
+.menu>ul>li>a{
+    display: block;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    color: white;
+    padding: 0 10px;
+    line-height: 40px;
+}
+.menu>ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color: orangered;
+    text-align: center;
+}
+.menu>ul>li>a:hover{
+    color: yellow;
+}
+.menu ul ul{
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    background-color:white;
+    box-shadow: 0 0 1px gray;
+}
+.menu ul ul a{
+    display: block;
+    line-height: 30px;
+    text-decoration:none ;
+    font-variant: small-caps;
+    font-size: larger;
+    padding: 0 10px;color: orangered;
+}
+.menu>ul>li:hover>ul{
+    display: block;
+    height: auto;
+}
+.menu ul ul a:hover{
+    background-color: orangered;
+    color: white;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.container>header{
+    background-image: url('https://ipet.vn/wp-content/uploads/2019/04/ipet-logo-footer.png');
+    background-size: 100% 100%;
+    height: 0px;
+    padding-bottom: 25%;
+}
+.container>article{
+    width: 75%;
+    float: left;
+    min-height: 100px;
+    background-color: white;
+}
+.container>footer{
+    border-top: double orangered 5px;
+    line-height: 50px;
+    background-color: lightcyan;text-align: center;
+    font-variant: small-caps;
+    clear: both;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+    
+.container>aside{
+    padding: 0px;
+    margin: 0px ;
+    list-style: none;
+    border-radius: 3px;
+    box-shadow: 0px 0px 2px lightblue;
+    }
+.container>aside a{
+    background: url(https://scontent.xx.fbcdn.net/v/t1.15752-0/p206x206/140146230_3525936560848926_1149576598523131033_n.png?_nc_cat=100&ccb=2&_nc_sid=58c789&_nc_ohc=350x_gL_DEcAX9jG9jZ&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&_nc_tp=30&oh=e073ba3b975a76334e33675149157510&oe=602F2E1A )  no-repeat 10px center;
+    display: block;
+    border-bottom: 1px dotted rgb(238, 232, 216);
+    color: orangered;
+    font-variant:small-caps ;
+    font-size: larger;
+    text-decoration: none;
+    padding: 8px 5px 8px 30px;
+}
+.container>aside a:hover{
+    background: url(https://scontent.xx.fbcdn.net/v/t1.15752-9/cp0/140282865_394848888483066_7309570020628203468_n.png?_nc_cat=105&ccb=2&_nc_sid=58c789&_nc_ohc=CL6uROx9m-wAX_FlbDt&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&_nc_tp=30&oh=eb16451a885a9db919258d60b30072be&oe=6031346F)no-repeat 10px center;
+    border-bottom: 1px dotted gray;
+    background-color: orangered;
+    color:white;
+    font-weight: bold;
+}
+.container>aside{
+    width: 200px;
+    float: right;
+    height: 100%;
+    background-color:white;
+    
+}
+.title{
+    height: 50px;
+    background-color: turquoise;
+}
+.title h1{
+    text-align: center;
+    color:white;
+    line-height: 50px;
+}
+.form{
+    padding: 15px 10px;
+}
+.container>nav{
+    line-height: 40px;
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    font-variant: small-caps;
+}
+.col-25{
+    width: 25%;
+    float: left;
+}
+.prod{
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+}
+.prod>.name{font-variant: small-caps;
+    color: blue;
+}
+.prod>.image{max-width: 98%;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.prod>.price{
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    font-family: Impact;
+    font-size: 25px;
+    color: orange;
+}
+.prod>.icons{
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    width: 25px;
+}
+.prod>.new-icon{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.font{
+    font-variant: small-caps;
+    text-decoration: none;
+    color: white;
+    font-size: smaller;
+    margin: 0 20 px;
+}
+.container{
+    position: relative;
+}
+
+.header{
+    position: relative;
+}
+button{
+    background-color:white;
+}
+.detail{
+    width: 100%;
+    border: 1px solid green;
+}
+.detail>.detail-image{
+   
+    float: left;
+}
+.detail>.detail-description{
+    width: 60%;
+    float: right;
+}
